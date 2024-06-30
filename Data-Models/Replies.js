@@ -5,3 +5,5 @@ class Reply{
         this.message=message;
     }
 }
+
+export {Reply}

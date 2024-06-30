@@ -86,7 +86,7 @@ function createMovieCardSecond(movie) {
     const cardSecond = document.createElement('div');
     cardSecond.classList.add('card');
     cardSecond.innerHTML = `
-        <p class="title">${movie.Name}</p>
+        <p class="title">${movie.name}</p>
         <div class="poster" style="background-image: url('${movie.imageVertical}'); background-size: cover;
         background-position: center;>
             <div class="reaction">
@@ -97,9 +97,9 @@ function createMovieCardSecond(movie) {
         <div class="info">
             <div class="clock">
                 <i class="fa-solid fa-clock clock"></i>
-                <p class="time">${movie.Duration}</p>
+                <p class="time">${movie.duration}</p>
             </div>
-            <div class="rate">${movie.Rating}</div>
+            <div class="rate">${movie.rating}</div>
         </div>
     `;
     containerSecond.appendChild(cardSecond);
