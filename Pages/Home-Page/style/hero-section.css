@@ -28,7 +28,7 @@ body {
 .hero-section p span{
     font-weight: 900;
 }
-button{
+.hero-section button{
     border-radius: 8px;
     background-color: #1E84E6;
     color: white;
@@ -36,10 +36,9 @@ button{
     padding: 0rem 1rem;
     justify-content: center;
     align-items: center;
-    width: 11rem;
+    width: 13rem;
     border-width: 0rem;
     transition: 500ms ease;
-    font-size: 1rem;
 }
 .hero-section button:hover{
     transform: scale(1.1);
@@ -51,7 +50,7 @@ button{
 }
 @media (max-width: 768px){
     .hero-section{
-        letter-spacing: 0.09rem;
+        letter-spacing: 0rem;
         line-height: 1.4rem;
         text-wrap: wrap;
     }

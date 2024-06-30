@@ -101,48 +101,29 @@
 
 
     <form action="" class="example" id="search-form">
-
         <div>
-        <p>Centered inside a form with max-width:</p>
-          <input type="text" placeholder="   Search.." name="search2">
-          <button type="submit" class="btn-form"><i class="fa fa-search"></i></button>
-       </div>
-
-       <div class="options">
-            <select id="options"  label="Movie">
-            <option selected hidden>language</option>
-            <option value="English">English</option>
-            <option value="French">French</option>
-            <option value="German">German</option>
-            <option value="Spanish">Spanish</option>
-          </select>
-          <select id="options" >
-            <option selected hidden>ratings</option>
-            <option value="2345Movie">2345Movie</option>
-            <option value="2345Movie">2345Movie</option>
-            <option value="2345Movie">2345Movie</option>
-          </select>
-          <select id="options" >
-            <option selected hidden>production year</option>
-            <option value="2345Movie">2345Movie</option>
-            <option value="2345Movie">2345Movie</option>
-            <option value="2345Movie">2345Movie</option>
-          </select>
-          <select id="options">
-            <option selected hidden>genre</option>
-            <option value="2345Movie">2345Movie</option>
-            <option value="2345Movie">2345Movie</option>
-            <option value="2345Movie">2345Movie</option>
-          </select>
-
-          <button class="btn-filter">Filter</button>
+            <input type="text" placeholder="🔎    Search.." id="searchInput">
+        </div>
+        <div class="options">
+            <select id="languageSelect">
+                <option selected hidden>Language</option>
+                <option value="English">English</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <option value="Spanish">Spanish</option>
+            </select>
+            <select id="genreSelect">
+                <option selected hidden>Genre</option>
+                <option value="Drama">Drama</option>
+                <option value="Horror">Horror</option>
+                <option value="Action">Action</option>
+                <option value="Thriller">Thriller</option>
+            </select>
+            <button type="button" class="btn-filter" onclick="filterMovies()">Filter</button>
         </div>
     </form>
 
-
-    
  <div class="cards-container"></div>
-
 <script src="hero-section.js"></script>
 <script type="module" src="get-Movies-data.js"></script>
 </body>
