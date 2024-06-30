@@ -57,9 +57,6 @@ export {
   query,
   getStorage,
 };
-// else{
-//   // fetchMovies();
-//   // let para=document.createElement('p');
-//   moviesContainer.innerHTML='no data found ';
-//   moviesContainer.style.color='red';
-// }
+
+
+
