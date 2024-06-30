@@ -1,12 +1,11 @@
 class User {
-  constructor(userID,firstName, lastName, email, image, bio,movies) {
+  constructor(userID,firstName, lastName, email, image, bio) {
     this.userID=userID;
     this.firstName = firstName;
     this.lastName = lastName;
     this.email = email;
     this.image = image;
     this.bio = bio;
-    this.movies=movies;
   }
 }
 
