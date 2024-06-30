@@ -1,7 +1,6 @@
 import {
   auth,
   loginFirebase,
-  retrieveData,
 } from "../../../../Firebase-config/firebase-config.js";
 
 function login(email, password) {
@@ -12,7 +11,7 @@ function login(email, password) {
       let user = userCredential.user;
 
       if (isVerified(user)) {
-        sessionStorage.setItem("currentUser", JSON.stringify(user.uid));
+        localStorage.setItem("currentUser", JSON.stringify(user));
         location.replace(
           "http://127.0.0.1:5500/OrangeTasks/Movies-Project/Pages/Home-Page/Home.html"
         );
