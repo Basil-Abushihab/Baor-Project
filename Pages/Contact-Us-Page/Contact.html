@@ -6,7 +6,7 @@
     <title>Contact US</title>
     <link rel="stylesheet" href="style/Contact-style.css">
 </head>
-<body>
+<body style="background-image: url(images/background.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <header>
         <div class="display">
         <div class="nav-bar">
@@ -36,22 +36,56 @@
     </div>
     </header>
 
-    <div>
+    <div class="container-all">
         <div class="header">
             <h3>Welcome to our <br> support page!</h3>
             <p>We're here to help you with any problems you may be having with <br>our product.</p>
             <img src="../About-Us/images/us-img.png" alt="">
         </div>
-        <form action="">
-            <label for="N-first">First Name</label>
-            <input type="text" name="" id="N-first" placeholder="Enter your first name">
-            <label for="N-last">Last Name</label>
-            <input type="text" name="" id="N-last" placeholder="Enter your last name">
-
-            <label for="email">Email</label>
-            <input type="email" name="" id="email" placeholder="Enter Your Email">
-        
-        </form>
+        <div class="container">
+            <div class="text">
+               Contact us 
+            </div>
+            <form action="#">
+               <div class="form-row">
+                  <div class="input-data">
+                     <input type="text" required>
+                     <div class="underline"></div>
+                     <label for="">First Name</label>
+                  </div>
+                  <div class="input-data">
+                     <input type="text" required>
+                     <div class="underline"></div>
+                     <label for="">Last Name</label>
+                  </div>
+               </div>
+               <div class="form-row">
+                  <div class="input-data">
+                     <input type="text" required>
+                     <div class="underline"></div>
+                     <label for="">Email Address</label>
+                  </div>
+                  <div class="input-data">
+                     <input type="text" required>
+                     <div class="underline"></div>
+                     <label for="">Phone Number</label>
+                  </div>
+               </div>
+               <div class="form-row">
+               <div class="input-data textarea">
+                  <textarea rows="8" cols="80" required></textarea>
+                  <br />
+                  <div class="underline"></div>
+                  <label for="">Write your message</label>
+                  <br />
+                  <div class="form-row submit-btn">
+                     <div class="input-data">
+                        <div class="inner"></div>
+                        <input type="submit" value="submit">
+                     </div>
+                  </div>
+            </form>
+            </div>
         
     </div>
     
