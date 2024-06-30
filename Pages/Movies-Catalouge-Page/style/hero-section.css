@@ -193,8 +193,8 @@ form.example input[type=text] {
     float: left;
     width: 50rem;
     background: #f1f1f1;
-    border-radius: 0.5rem;
-    /* border-bottom-left-radius: 0.5rem; */
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
   
   .btn-form{
@@ -220,7 +220,7 @@ form.example input[type=text] {
     clear: both;
     display: table;
   }
-#languageSelect , #genreSelect , .btn-filter{
+#options , .btn-filter{
     border-radius: 1rem;
     font-family: manrope;
     width: 8.5rem;
